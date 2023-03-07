@@ -38,5 +38,5 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
-        publish_dir: dist
+        publish_dir: web/dist
         # cname: abex.dev
