@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Color Flipper</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Color Flipper</string>
+    <string name="generate">Generate</string>
+
+    <string name="press_the_button">Press the button</string>
+</resources>
