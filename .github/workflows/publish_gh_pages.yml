@@ -26,10 +26,9 @@ jobs:
       uses: jetli/trunk-action@v0.4.0
 
     # build css and rust
-    - name: change to web directory
-      run: cd web
     - name: run trunk
       run: |
+        cd web
         rustup override set nightly 
         trunk build --release
 
